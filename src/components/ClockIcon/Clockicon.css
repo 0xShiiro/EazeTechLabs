@@ -1,0 +1,14 @@
+.Clock{
+    width:80px;
+    
+}
+.clockicon{
+    justify-content: center;
+    align-items: center;   
+}
+.caution-icon{
+    
+    position: relative;  
+    top:15px;
+    left:-20px
+}

@@ -1,0 +1,84 @@
+.sidebar {
+    background-color: white;
+    z-index: -1;
+    margin-left: 10px;
+
+}
+
+.sidebar-container {
+    height: 98vh;
+    border-radius: 20px;
+    background-color: #2F667F;
+    margin-top: 8px;
+    margin-left: 15px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sidebar-brand {
+    font-size: 36px;
+}
+
+hr {
+    background-color: rgba(255, 255, 255, 1);
+    width: 210px;
+    margin-left: 15px;
+}
+
+.sidebar-item-content>span {
+    margin-left: 30px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 17.78px;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sidebar-item:hover {
+    background-color: rgba(83, 155, 187, 1);
+
+
+}
+
+.sidebar-item {
+    justify-content: left;
+    height: 60px;
+    width: 80%;
+    border-radius: 20px;
+
+}
+
+.flow-bottom-content {
+    font-family: Poppins;
+    font-size: 18.85px;
+    font-weight: 600;
+    line-height: 19.63px;
+    color: rgba(87, 87, 87, 1);
+    margin-top: 20px;
+}
+
+.savebtn {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(47, 102, 127, 1);
+    width:80px;
+    height: 40px;
+    border-radius: 50px;
+    color:white;
+    border: none;
+    margin-top: 25px;
+}
+.savebtn:hover{
+    scale:0.9;
+    transition: 100ms ease-in-out;
+}

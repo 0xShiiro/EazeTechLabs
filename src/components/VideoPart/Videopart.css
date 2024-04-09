@@ -1,0 +1,52 @@
+.video-part-text{
+    width:300px;
+    
+}
+.text-1{
+    font-family: Poppins;
+font-size: 23.11px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+
+}
+.text-2{
+    font-family: Poppins;
+font-size: 15.69px;
+font-weight: 300;
+line-height: 26.15px;
+text-align: left;
+
+}
+.VideoPart{
+    width: 350px;
+}
+.contact-icons{
+    margin-top:50px;
+    margin-bottom:30px;
+    justify-content: right;
+}
+.video-part-text{
+    margin-left: 15px;
+}
+.video{
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.contact-icon {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+    margin: 0px 8px;
+}
+.contact-icon:hover{
+    cursor:pointer;
+    scale: 1.1;
+    transition-timing-function: ease;
+}

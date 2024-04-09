@@ -1,0 +1,38 @@
+.flow-page-part {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.flow-page-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 50px;
+    height:200px;
+    line-height: 100px;
+    margin-top: 350px;
+
+}
+.flow-part{
+    margin-top: 150px;
+    width:1000px;
+    overflow-x: scroll;
+}
+.flow-part::-webkit-scrollbar{
+    width:1px;
+}
+.flow-part::-webkit-scrollbar-thumb{
+    background-color: rgba(47, 102, 127, 1);
+    border-radius: 10px;
+    height:2px
+}
+.flow-part::-webkit-scrollbar-track{
+    height:2px;    
+}
+.add-flow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
